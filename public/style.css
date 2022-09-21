@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  margin-top: 1.5rem;
+
+}
+
+.container a {
+  text-decoration: none;
+  background: #ccc;
+  width: 100px;
+  height: 35px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+a:hover {
+  color: #fff;
+  background: rgb(77, 75, 75);
+}
+
+.navbar_front-page {
+  margin-right: auto;
+
+}
+
+.navbar_about {
+  margin-right: 1rem;
+}
+
+.navbar_portfolio {
+  margin-right: 1rem;
+}
+
+.navbar_contact {
+  margin-right: 1rem;
+}
